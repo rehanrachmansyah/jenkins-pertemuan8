@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/cravengithub/node-app.git'
+                git 'https://github.com/rehanrachmansyah/jenkins-pertemuan8.git'
             }
         }
         stage('Build') {
